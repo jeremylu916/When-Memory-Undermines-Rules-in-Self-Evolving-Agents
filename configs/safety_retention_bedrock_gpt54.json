@@ -1,0 +1,18 @@
+{
+  "provider": "bedrock",
+  "region": "us-east-1",
+  "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+  "api_key_env": "AWS_BEARER_TOKEN_BEDROCK",
+  "max_completion_tokens": 8192,
+  "memory_completion_tokens": 16384,
+  "timeout_s": 240,
+  "transport_retries": 5,
+  "retry_backoff_s": 10,
+  "structured_output": "text",
+  "model": "us.openai.gpt-5.4",
+  "model_revision": "Bedrock inference profile us.openai.gpt-5.4, us-east-1; reasoning model, no temperature (settings as GPT-6.1)",
+  "prompt_token_price": 0.005,
+  "completion_token_price": 0.03,
+  "temperature": null,
+  "extract_last_json": true
+}

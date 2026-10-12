@@ -1,0 +1,16 @@
+{
+  "provider": "bedrock",
+  "region": "us-east-1",
+  "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+  "api_key_env": "AWS_BEARER_TOKEN_BEDROCK",
+  "temperature": 0,
+  "max_completion_tokens": 1024,
+  "memory_completion_tokens": 2048,
+  "timeout_s": 120,
+  "transport_retries": 3,
+  "retry_backoff_s": 5,
+  "model": "deepseek.v3.2",
+  "model_revision": "Bedrock deepseek.v3.2 (DeepSeek-V3.2), on-demand, us-east-1; prices are conservative estimates",
+  "prompt_token_price": 0.0007,
+  "completion_token_price": 0.0021
+}

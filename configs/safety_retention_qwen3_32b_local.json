@@ -1,0 +1,19 @@
+{
+  "model": "qwen3-32b",
+  "model_revision": "Qwen/Qwen3-32B-FP8@aa55da1ecc13d006e8b8e4f54579b1ea8c3db2df; vLLM 0.11.0, 1x H100 on h007, FP8, thinking disabled via chat template",
+  "base_url": "http://h007:8012/v1",
+  "api_key_env": "LOCAL_VLLM_KEY",
+  "temperature": 0,
+  "response_format": {
+    "type": "json_object"
+  },
+  "completion_token_field": "max_tokens",
+  "send_seed": false,
+  "max_completion_tokens": 1024,
+  "memory_completion_tokens": 2048,
+  "timeout_s": 120,
+  "prompt_token_price": 0.0,
+  "completion_token_price": 0.0,
+  "transport_retries": 3,
+  "retry_backoff_s": 5
+}

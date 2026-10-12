@@ -1,0 +1,19 @@
+{
+  "model": "phi-4",
+  "model_revision": "microsoft/phi-4, vLLM 0.11.0 bf16, 1x H100 on h005",
+  "base_url": "http://h005:8013/v1",
+  "api_key_env": "LOCAL_VLLM_KEY",
+  "temperature": 0,
+  "response_format": {
+    "type": "json_object"
+  },
+  "completion_token_field": "max_tokens",
+  "send_seed": false,
+  "max_completion_tokens": 1024,
+  "memory_completion_tokens": 2048,
+  "timeout_s": 120,
+  "prompt_token_price": 0.0,
+  "completion_token_price": 0.0,
+  "transport_retries": 3,
+  "retry_backoff_s": 5
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "bedrock",
+  "region": "us-east-1",
+  "base_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+  "api_key_env": "AWS_BEARER_TOKEN_BEDROCK",
+  "max_completion_tokens": 8192,
+  "memory_completion_tokens": 16384,
+  "timeout_s": 240,
+  "transport_retries": 5,
+  "retry_backoff_s": 10,
+  "structured_output": "text",
+  "model": "us.anthropic.claude-opus-5-5",
+  "model_revision": "Bedrock inference profile us.anthropic.claude-opus-5-5, us-east-1; adaptive thinking always on (default effort), no temperature",
+  "prompt_token_price": 0.004,
+  "completion_token_price": 0.02,
+  "temperature": null,
+  "extract_last_json": true
+}

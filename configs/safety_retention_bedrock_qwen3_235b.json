@@ -1,0 +1,16 @@
+{
+  "provider": "bedrock",
+  "region": "us-west-2",
+  "base_url": "https://bedrock-runtime.us-west-2.amazonaws.com",
+  "api_key_env": "AWS_BEARER_TOKEN_BEDROCK",
+  "temperature": 0,
+  "max_completion_tokens": 1024,
+  "memory_completion_tokens": 2048,
+  "timeout_s": 120,
+  "transport_retries": 3,
+  "retry_backoff_s": 5,
+  "model": "qwen.qwen3-235b-a22b-2507-v1:0",
+  "model_revision": "Bedrock qwen.qwen3-235b-a22b-2507-v1:0, us-west-2",
+  "prompt_token_price": 0.0003,
+  "completion_token_price": 0.0012
+}

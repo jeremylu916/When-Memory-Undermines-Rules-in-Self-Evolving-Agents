@@ -1,0 +1,15 @@
+{
+  "model": "deepseek-flash",
+  "model_revision": "DeepSeek-V4.1-Flash; provider alias verified 2026-09-30; not an immutable deployment",
+  "base_url": "https://api.deepseek.com",
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "temperature": 0,
+  "thinking": {"type": "disabled"},
+  "response_format": {"type": "json_object"},
+  "completion_token_field": "max_tokens",
+  "send_seed": false,
+  "max_completion_tokens": 1024,
+  "timeout_s": 60,
+  "prompt_token_price": 0.0003,
+  "completion_token_price": 0.0012
+}
